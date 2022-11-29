@@ -1,0 +1,31 @@
+.container {
+  //   background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 2rem;
+  border-bottom: 1px solid var(--color-border);
+
+  .containerRight {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+    p {
+      color: var(--text-light);
+      font-size: 0.85rem;
+    }
+
+    .button_createAccount {
+      border: 1px solid var(--color-border);
+      letter-spacing: 1px;
+      font-weight: 300;
+      transition: all 0.5s ease;
+    }
+
+    .button_createAccount:hover {
+      background-color: var(--color-primary);
+      //   color: white;
+    }
+  }
+}
